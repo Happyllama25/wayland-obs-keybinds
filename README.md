@@ -12,6 +12,7 @@ You will need `Python3`, and `obsws_python`, which should be installed automatic
 4. Clone or save the [`save_replay_buffer.py`](save_replay_buffer.py) to an accessible location - like `~/Videos/Clips/save_replay_buffer.py`
 
 ### Set a KDE Shortcut
+This will probably be similar on other distro's
 1. Open your System Settings --> Shortcuts
 2. Add New --> Command or Script
 3. Set the Command to `~/Videos/Clips/replay_buffer_save.py` (or whichever path you saved it to)
