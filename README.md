@@ -1,6 +1,10 @@
-# wayland-obs-keybinds
+# Wayland OBS Shortcuts workaround
 In Linux Wayland Sessions, keybinds are (currently) only sent to the focused application, breaking OBS's shortcuts function.
 This small helper script is based on [Andrew Shark's original script](https://gitlab.com/AndrewShark/obs-scripts) but modified to save the replay buffer instead of start/pause recording.
+I also looked at [cfreis project](https://github.com/cfreis/obs-scripts) for KDE specific
+
+### Requirements
+You will need `Python3`, and `obsws_python`, which should be installed automatically with OBS 
 
 ### How to use
 1. In OBS go to Tools --> WebSocket Server Settings
@@ -11,7 +15,7 @@ This small helper script is based on [Andrew Shark's original script](https://gi
 ### Set a KDE Shortcut
 1. Open your System Settings --> Shortcuts
 2. Add New --> Command or Script
-3. Set the Command to `python ~/Videos/Clips/replay_buffer_save.py` (or whichever path you saved it to)
+3. Set the Command to `~/Videos/Clips/replay_buffer_save.py` (or whichever path you saved it to)
 4. Add your own custom shortcut (like Alt + `)
 5. Apply and test the bind, look in your OBS saved recordings file to see the saved buffers (like `~/Videos/Clips/`)
 
