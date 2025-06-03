@@ -10,6 +10,7 @@ You will need `Python3`, and `obsws_python`, which should be installed automatic
 2. Enable the Websocket Server
 3. Turn off Enable Authentication* and System Tray Alerts*
 4. Clone or save the [`save_replay_buffer.py`](save_replay_buffer.py) to an accessible location - like `~/Videos/Clips/save_replay_buffer.py`
+5. Make it executable (either `right click - properties - permissions - allow executing` or `chmod +x ~/Videos/Clips/save_replay_buffer.py`) 
 
 ### Set a KDE Shortcut
 This will probably be similar on other distro's
